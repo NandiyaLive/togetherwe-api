@@ -4,7 +4,7 @@ export default async (_, res) => {
   
   const data = [id]
   
-  console.log(id)
+  console.log(data)
   
   return res.status(200).json({ data });
 };
