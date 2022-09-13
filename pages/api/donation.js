@@ -4,5 +4,7 @@ export default async (_, res) => {
   
   const data = [id]
   
+  console.log(id)
+  
   return res.status(200).json({ data });
 };
